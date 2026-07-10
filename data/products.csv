@@ -1,0 +1,1001 @@
+product_id,Product_name,category_id,supplier_id,price
+1,School Bag,6,45,28329
+2,Samsung Smart TV,6,27,4674
+3,Refrigerator,4,22,45407
+4,Novel Book,7,3,45655
+5,Nike Running Shoes,7,15,14385
+6,Mixer Grinder,7,40,27425
+7,Dining Table,1,34,36828
+8,Samsung Smart TV,1,46,18422
+9,Cricket Bat,7,6,866
+10,School Bag,5,33,5889
+11,Coffee Maker,4,15,38849
+12,School Bag,7,9,32747
+13,Wireless Mouse,6,41,2467
+14,Water Bottle,5,33,48538
+15,Dining Table,5,46,34274
+16,Football,1,49,43265
+17,Football,1,19,11833
+18,Microwave Oven,5,28,17052
+19,Microwave Oven,4,46,48861
+20,Office Chair,6,7,42007
+21,Washing Machine,7,24,7119
+22,Microwave Oven,3,24,48048
+23,Office Chair,3,38,31304
+24,Novel Book,4,14,30041
+25,Washing Machine,4,28,12923
+26,Bluetooth Speaker,2,23,14861
+27,Cricket Bat,7,29,26761
+28,Microwave Oven,1,46,31952
+29,Office Chair,8,33,27215
+30,Coffee Maker,4,15,36900
+31,Novel Book,4,23,40064
+32,Dining Table,1,35,20986
+33,Office Chair,8,22,35911
+34,Football,5,19,42478
+35,Microwave Oven,7,6,12032
+36,Samsung Smart TV,6,31,38607
+37,Nike Running Shoes,2,13,24678
+38,Microwave Oven,6,6,23357
+39,Dell Laptop,7,28,46983
+40,Novel Book,7,31,45673
+41,Refrigerator,6,48,7459
+42,Bluetooth Speaker,4,25,4839
+43,Refrigerator,4,13,47773
+44,Apple iPhone 15,1,25,18597
+45,Coffee Maker,7,17,31232
+46,Washing Machine,7,25,39168
+47,Cricket Bat,2,38,2426
+48,Mixer Grinder,2,23,26216
+49,Air Conditioner,7,14,19000
+50,Apple iPhone 15,6,9,20966
+51,Cricket Bat,3,46,29779
+52,Office Chair,8,14,16681
+53,Office Chair,2,13,28207
+54,Refrigerator,6,34,13423
+55,Refrigerator,7,1,19290
+56,Novel Book,1,3,4139
+57,School Bag,2,30,5759
+58,Washing Machine,4,47,48226
+59,Mixer Grinder,6,32,29127
+60,Football,3,6,35403
+61,Refrigerator,7,48,29566
+62,Office Chair,1,41,30448
+63,Refrigerator,4,37,5117
+64,Dell Laptop,5,48,43313
+65,Nike Running Shoes,2,39,21142
+66,Novel Book,1,18,20340
+67,Air Conditioner,5,28,35478
+68,Air Conditioner,1,33,5827
+69,Cricket Bat,7,1,5080
+70,Office Chair,2,46,28115
+71,Washing Machine,3,22,36032
+72,Keyboard,8,46,31500
+73,Football,2,13,35590
+74,Cricket Bat,6,28,4128
+75,School Bag,8,35,33406
+76,Nike Running Shoes,2,34,5851
+77,Cricket Bat,5,21,9785
+78,Dining Table,5,11,21115
+79,Office Chair,1,36,37756
+80,Nike Running Shoes,3,9,17170
+81,Apple iPhone 15,6,21,35257
+82,Samsung Smart TV,5,11,43787
+83,Samsung Smart TV,4,7,21113
+84,Water Bottle,8,39,34710
+85,Air Conditioner,4,49,10766
+86,Mixer Grinder,7,44,31483
+87,Water Bottle,6,12,17917
+88,Dell Laptop,7,33,6469
+89,Water Bottle,1,18,25556
+90,Microwave Oven,3,8,17483
+91,Football,3,23,14276
+92,Mixer Grinder,1,25,48598
+93,Microwave Oven,5,4,41269
+94,Office Chair,7,25,26463
+95,Dell Laptop,6,45,22942
+96,Refrigerator,6,30,6120
+97,Cricket Bat,5,30,41453
+98,Air Conditioner,8,43,17229
+99,Bluetooth Speaker,8,40,156
+100,Dell Laptop,8,50,6163
+101,Coffee Maker,5,11,15490
+102,Samsung Smart TV,4,12,13682
+103,Mixer Grinder,7,20,11274
+104,Dell Laptop,6,7,15475
+105,Cricket Bat,1,17,12287
+106,Bluetooth Speaker,3,12,47385
+107,Apple iPhone 15,4,15,13544
+108,Washing Machine,8,32,23896
+109,Football,7,28,36067
+110,Wireless Mouse,6,29,32474
+111,Dining Table,4,48,23633
+112,Bluetooth Speaker,4,20,15124
+113,Bluetooth Speaker,7,36,18684
+114,Washing Machine,4,41,42366
+115,Air Conditioner,7,30,45470
+116,Nike Running Shoes,8,42,24372
+117,Office Chair,2,8,17409
+118,Apple iPhone 15,5,38,42795
+119,Nike Running Shoes,1,34,43526
+120,Microwave Oven,1,6,33830
+121,Refrigerator,7,27,4240
+122,Apple iPhone 15,4,4,49222
+123,Keyboard,3,30,33804
+124,Air Conditioner,3,23,46886
+125,Bluetooth Speaker,5,44,13276
+126,Mixer Grinder,7,23,49309
+127,Apple iPhone 15,6,1,744
+128,Cricket Bat,1,45,44284
+129,Bluetooth Speaker,4,21,46806
+130,Mixer Grinder,2,18,4437
+131,Microwave Oven,4,46,2550
+132,Water Bottle,7,24,28636
+133,Microwave Oven,3,3,48607
+134,Wireless Mouse,6,34,12630
+135,Novel Book,2,41,7446
+136,Refrigerator,7,49,23400
+137,School Bag,5,27,4554
+138,Apple iPhone 15,7,17,42164
+139,Dining Table,8,39,31765
+140,Refrigerator,2,19,42469
+141,Water Bottle,2,22,49857
+142,Cricket Bat,7,35,17789
+143,Washing Machine,5,45,49318
+144,Novel Book,4,37,2519
+145,Office Chair,8,29,36436
+146,Microwave Oven,1,11,9596
+147,Nike Running Shoes,3,2,18906
+148,Wireless Mouse,3,40,39178
+149,Dining Table,7,25,12036
+150,Mixer Grinder,6,1,41790
+151,Office Chair,5,44,710
+152,Novel Book,3,38,22900
+153,Coffee Maker,4,17,39084
+154,Novel Book,1,12,26050
+155,Office Chair,6,39,41889
+156,Office Chair,7,15,5425
+157,Nike Running Shoes,2,11,26365
+158,Nike Running Shoes,5,19,29335
+159,Office Chair,6,40,137
+160,Dell Laptop,3,49,36890
+161,Bluetooth Speaker,6,44,14979
+162,Coffee Maker,2,28,40310
+163,Refrigerator,4,15,42709
+164,Water Bottle,6,22,23373
+165,Microwave Oven,3,18,27836
+166,Bluetooth Speaker,5,39,10381
+167,Novel Book,5,11,16914
+168,Water Bottle,3,5,46309
+169,School Bag,4,38,20746
+170,Mixer Grinder,2,31,25493
+171,Water Bottle,6,42,21403
+172,Wireless Mouse,2,31,39748
+173,Dell Laptop,5,1,33965
+174,Water Bottle,6,37,33154
+175,Washing Machine,5,15,49059
+176,Mixer Grinder,7,28,35741
+177,Nike Running Shoes,5,19,45441
+178,Microwave Oven,8,18,43983
+179,Mixer Grinder,6,39,25597
+180,Water Bottle,6,48,21303
+181,Coffee Maker,8,17,18168
+182,Dell Laptop,3,24,41015
+183,Dining Table,4,36,29454
+184,Keyboard,8,10,4972
+185,Water Bottle,4,28,27937
+186,Coffee Maker,7,19,44538
+187,Dell Laptop,8,42,10966
+188,Dining Table,2,42,13004
+189,Washing Machine,7,25,19318
+190,Dining Table,1,43,49983
+191,Apple iPhone 15,3,10,33161
+192,Bluetooth Speaker,2,15,19254
+193,Samsung Smart TV,8,37,40003
+194,Mixer Grinder,6,32,18989
+195,Bluetooth Speaker,4,46,5673
+196,Refrigerator,2,23,45697
+197,School Bag,5,3,36882
+198,Dell Laptop,3,30,40348
+199,Air Conditioner,6,17,23710
+200,Microwave Oven,5,25,38990
+201,Wireless Mouse,5,17,34115
+202,Bluetooth Speaker,6,47,30795
+203,Coffee Maker,8,5,5300
+204,Air Conditioner,7,40,30391
+205,Cricket Bat,8,19,567
+206,Nike Running Shoes,8,27,14669
+207,Office Chair,5,16,3360
+208,Air Conditioner,6,35,34289
+209,Keyboard,3,39,31171
+210,Samsung Smart TV,3,50,12972
+211,Washing Machine,7,9,49181
+212,Water Bottle,5,41,32159
+213,Apple iPhone 15,5,14,25339
+214,Keyboard,4,43,2530
+215,School Bag,6,23,10598
+216,Samsung Smart TV,3,42,41528
+217,Football,2,5,5641
+218,Water Bottle,3,20,44586
+219,Dell Laptop,6,23,5958
+220,Samsung Smart TV,3,48,47102
+221,Office Chair,6,15,42217
+222,Mixer Grinder,2,49,20539
+223,Air Conditioner,8,22,3243
+224,Dell Laptop,7,6,37165
+225,Samsung Smart TV,7,35,36413
+226,Microwave Oven,5,3,12410
+227,Washing Machine,2,23,10896
+228,Washing Machine,8,28,35341
+229,Samsung Smart TV,4,4,13142
+230,Dell Laptop,6,21,24977
+231,Office Chair,7,13,16099
+232,Office Chair,4,21,11059
+233,Bluetooth Speaker,5,28,48277
+234,Air Conditioner,2,23,44519
+235,Cricket Bat,2,27,49889
+236,Bluetooth Speaker,3,47,34652
+237,Wireless Mouse,7,1,22852
+238,Cricket Bat,2,32,32353
+239,School Bag,1,8,16789
+240,Football,2,15,11437
+241,Cricket Bat,8,28,6459
+242,Air Conditioner,7,38,35181
+243,Mixer Grinder,6,24,42856
+244,Keyboard,3,6,28115
+245,Football,2,30,33302
+246,Keyboard,2,34,49776
+247,Dell Laptop,7,9,3321
+248,School Bag,1,20,24415
+249,School Bag,5,18,12218
+250,Mixer Grinder,7,11,8709
+251,Refrigerator,6,11,30734
+252,Refrigerator,3,36,43388
+253,School Bag,7,41,38100
+254,Office Chair,5,46,3812
+255,Apple iPhone 15,3,35,30085
+256,Mixer Grinder,3,12,27291
+257,Coffee Maker,2,7,3808
+258,School Bag,4,2,2756
+259,Football,8,24,5119
+260,Bluetooth Speaker,7,31,14496
+261,Novel Book,8,30,13499
+262,Football,5,18,12965
+263,Samsung Smart TV,2,16,36008
+264,Office Chair,6,4,40503
+265,Refrigerator,3,32,17643
+266,Air Conditioner,1,4,35491
+267,Microwave Oven,3,32,1754
+268,Mixer Grinder,7,17,21699
+269,Cricket Bat,3,4,27643
+270,Apple iPhone 15,6,28,8642
+271,School Bag,2,22,18393
+272,Mixer Grinder,7,17,31301
+273,Air Conditioner,2,41,39237
+274,Water Bottle,8,39,1413
+275,Wireless Mouse,2,10,43357
+276,Bluetooth Speaker,8,26,46354
+277,Keyboard,8,34,10351
+278,Coffee Maker,5,15,22752
+279,Novel Book,6,7,42938
+280,Water Bottle,2,5,45018
+281,School Bag,7,4,40566
+282,Washing Machine,5,28,20839
+283,Washing Machine,1,21,8757
+284,Washing Machine,4,30,18698
+285,Novel Book,5,9,12460
+286,Nike Running Shoes,1,19,24432
+287,Dining Table,1,10,17744
+288,Air Conditioner,3,18,39064
+289,Water Bottle,5,36,42727
+290,Nike Running Shoes,2,4,20592
+291,Nike Running Shoes,1,9,23401
+292,Football,2,38,49870
+293,Cricket Bat,1,27,42859
+294,Apple iPhone 15,6,13,11961
+295,Bluetooth Speaker,2,22,13423
+296,Air Conditioner,6,25,39771
+297,Apple iPhone 15,3,28,13529
+298,Wireless Mouse,3,26,41153
+299,Refrigerator,4,48,11069
+300,School Bag,2,49,11845
+301,Dell Laptop,5,37,29637
+302,Bluetooth Speaker,4,47,4222
+303,Cricket Bat,3,13,5068
+304,Mixer Grinder,4,30,48367
+305,Microwave Oven,1,19,16107
+306,Nike Running Shoes,6,30,14222
+307,Novel Book,3,22,17283
+308,Apple iPhone 15,8,28,10187
+309,Apple iPhone 15,5,36,21110
+310,Samsung Smart TV,5,47,25377
+311,Football,4,33,4552
+312,Nike Running Shoes,6,47,8558
+313,Dell Laptop,5,14,8835
+314,Dell Laptop,2,45,1676
+315,Cricket Bat,1,28,27810
+316,Bluetooth Speaker,4,35,13070
+317,Microwave Oven,2,22,23571
+318,Coffee Maker,3,41,1398
+319,Novel Book,4,28,6861
+320,Mixer Grinder,7,37,27923
+321,Coffee Maker,1,35,43783
+322,Office Chair,7,36,49310
+323,Water Bottle,6,1,7628
+324,Novel Book,3,1,40508
+325,Samsung Smart TV,7,9,17067
+326,Air Conditioner,6,46,46024
+327,School Bag,6,45,33344
+328,Bluetooth Speaker,1,1,44522
+329,Apple iPhone 15,4,47,13269
+330,Nike Running Shoes,6,22,28416
+331,Dell Laptop,3,14,6735
+332,Mixer Grinder,2,6,6402
+333,Samsung Smart TV,2,40,23435
+334,Keyboard,7,4,12775
+335,Washing Machine,4,11,8018
+336,Cricket Bat,1,14,45497
+337,Wireless Mouse,4,30,41841
+338,Keyboard,1,14,47353
+339,Mixer Grinder,5,17,6861
+340,Cricket Bat,4,5,27518
+341,Nike Running Shoes,5,36,29240
+342,Office Chair,8,8,36739
+343,Keyboard,2,37,30763
+344,Dining Table,7,32,27292
+345,Dell Laptop,3,28,14625
+346,Keyboard,3,3,17472
+347,Dell Laptop,4,37,17625
+348,Novel Book,3,47,22893
+349,Air Conditioner,5,21,45735
+350,Refrigerator,3,41,34586
+351,Refrigerator,2,17,35476
+352,School Bag,6,21,38715
+353,Nike Running Shoes,1,25,29052
+354,Water Bottle,6,27,45918
+355,Apple iPhone 15,7,11,38952
+356,Washing Machine,8,4,13767
+357,Dining Table,8,34,24278
+358,Bluetooth Speaker,7,13,48578
+359,Microwave Oven,6,7,48541
+360,Air Conditioner,2,47,1092
+361,Air Conditioner,5,3,9485
+362,Novel Book,6,3,42835
+363,Washing Machine,4,25,8663
+364,Washing Machine,6,25,42033
+365,Air Conditioner,8,14,25267
+366,Microwave Oven,4,42,18724
+367,Wireless Mouse,2,40,1670
+368,Microwave Oven,2,25,44190
+369,Nike Running Shoes,3,22,2411
+370,Dell Laptop,4,39,35396
+371,Air Conditioner,7,35,23107
+372,Apple iPhone 15,6,47,24274
+373,Dining Table,5,34,583
+374,Wireless Mouse,7,26,7071
+375,Football,6,22,38424
+376,Water Bottle,2,25,13163
+377,Microwave Oven,6,21,43671
+378,Dell Laptop,2,26,21850
+379,Bluetooth Speaker,5,40,34735
+380,Cricket Bat,3,29,24645
+381,Nike Running Shoes,3,1,28642
+382,Mixer Grinder,3,29,23970
+383,Refrigerator,5,43,7061
+384,Novel Book,4,17,43811
+385,School Bag,6,31,16171
+386,School Bag,8,46,26075
+387,Samsung Smart TV,3,48,27323
+388,Keyboard,4,47,18381
+389,Office Chair,5,5,42638
+390,Coffee Maker,1,26,10554
+391,Air Conditioner,2,2,12945
+392,Air Conditioner,1,21,5833
+393,Air Conditioner,5,9,12392
+394,Air Conditioner,8,5,8834
+395,Water Bottle,3,20,22289
+396,Air Conditioner,2,36,6112
+397,Air Conditioner,2,3,38223
+398,Bluetooth Speaker,3,8,24159
+399,Dell Laptop,3,49,8529
+400,Refrigerator,4,28,40185
+401,Nike Running Shoes,1,4,42311
+402,Novel Book,4,37,27956
+403,Football,4,38,12579
+404,Novel Book,8,7,9425
+405,Nike Running Shoes,7,7,5405
+406,Water Bottle,1,24,19312
+407,Dell Laptop,7,37,46833
+408,Keyboard,1,10,34788
+409,School Bag,6,30,17273
+410,Cricket Bat,5,27,29642
+411,Apple iPhone 15,6,10,38822
+412,Refrigerator,7,25,11505
+413,Mixer Grinder,2,15,14028
+414,Dell Laptop,7,47,45977
+415,Cricket Bat,8,5,40784
+416,Dining Table,5,41,3913
+417,Novel Book,5,5,27305
+418,Novel Book,1,6,46216
+419,Dell Laptop,4,11,13166
+420,Samsung Smart TV,2,3,33224
+421,Bluetooth Speaker,6,34,11631
+422,Football,7,32,27882
+423,Bluetooth Speaker,6,10,11388
+424,School Bag,7,36,4770
+425,Samsung Smart TV,6,33,5772
+426,Air Conditioner,6,33,29010
+427,School Bag,3,35,26601
+428,Samsung Smart TV,1,38,18133
+429,Nike Running Shoes,4,15,32224
+430,Keyboard,1,45,3018
+431,Microwave Oven,7,45,9097
+432,Mixer Grinder,3,36,18213
+433,Wireless Mouse,3,33,15052
+434,Samsung Smart TV,4,12,18870
+435,Keyboard,6,2,14665
+436,Bluetooth Speaker,3,19,34651
+437,Air Conditioner,4,43,20017
+438,Microwave Oven,6,18,22849
+439,Washing Machine,7,19,44425
+440,Refrigerator,2,48,47856
+441,Samsung Smart TV,6,38,13082
+442,Dell Laptop,8,41,48590
+443,School Bag,3,10,8299
+444,Mixer Grinder,1,6,43363
+445,Washing Machine,4,50,13116
+446,Samsung Smart TV,1,9,44805
+447,Dining Table,5,42,35500
+448,Air Conditioner,4,20,21915
+449,Water Bottle,4,17,10830
+450,Washing Machine,7,6,12807
+451,Football,8,2,40374
+452,Bluetooth Speaker,3,47,12074
+453,Nike Running Shoes,4,17,35469
+454,Dell Laptop,8,30,25286
+455,Cricket Bat,2,19,18456
+456,Keyboard,3,5,41337
+457,Cricket Bat,6,5,42156
+458,Cricket Bat,4,22,15551
+459,Bluetooth Speaker,7,33,41358
+460,Water Bottle,5,41,42692
+461,Novel Book,3,32,34339
+462,Mixer Grinder,4,24,11514
+463,Dining Table,5,39,33146
+464,Refrigerator,3,40,23760
+465,Mixer Grinder,5,21,46288
+466,Nike Running Shoes,5,5,47887
+467,Washing Machine,7,40,26281
+468,Keyboard,8,24,10977
+469,Apple iPhone 15,2,38,8422
+470,Bluetooth Speaker,4,37,28797
+471,Cricket Bat,3,13,2912
+472,Microwave Oven,6,38,45569
+473,School Bag,6,26,44517
+474,Refrigerator,4,22,15277
+475,Coffee Maker,7,38,11973
+476,Mixer Grinder,3,33,3861
+477,Football,1,39,7670
+478,Office Chair,5,5,15236
+479,Apple iPhone 15,8,49,45711
+480,Keyboard,7,7,14209
+481,Microwave Oven,2,22,44656
+482,Dell Laptop,3,20,38219
+483,Apple iPhone 15,8,37,20337
+484,Coffee Maker,8,40,31055
+485,Air Conditioner,1,37,5810
+486,Novel Book,4,32,29346
+487,Refrigerator,8,8,2684
+488,Office Chair,8,32,23034
+489,School Bag,6,44,40256
+490,Apple iPhone 15,5,23,27897
+491,Samsung Smart TV,7,6,6995
+492,Nike Running Shoes,7,12,3723
+493,Mixer Grinder,6,15,9026
+494,Novel Book,7,6,45279
+495,Football,3,35,35177
+496,Dining Table,4,10,32145
+497,Water Bottle,2,47,35097
+498,Dell Laptop,7,31,38968
+499,Microwave Oven,3,30,18301
+500,Refrigerator,1,18,47928
+501,Nike Running Shoes,6,49,22491
+502,Keyboard,8,37,43365
+503,School Bag,1,33,11489
+504,Keyboard,5,48,21565
+505,Football,6,28,43723
+506,Bluetooth Speaker,7,8,48263
+507,Keyboard,5,34,8467
+508,Air Conditioner,2,33,31176
+509,School Bag,3,11,32016
+510,Nike Running Shoes,4,34,9652
+511,Dining Table,6,35,34783
+512,Dell Laptop,7,17,37646
+513,Refrigerator,7,40,31161
+514,Nike Running Shoes,2,24,18658
+515,Refrigerator,2,12,38985
+516,Dining Table,1,38,47254
+517,Cricket Bat,8,28,13808
+518,Cricket Bat,6,22,17507
+519,Novel Book,6,7,44242
+520,Dell Laptop,1,44,41655
+521,Refrigerator,4,18,8041
+522,Mixer Grinder,6,22,49439
+523,Football,3,7,25220
+524,Air Conditioner,5,26,11266
+525,Dining Table,5,10,3611
+526,Bluetooth Speaker,1,26,31314
+527,Microwave Oven,7,41,20636
+528,Apple iPhone 15,8,8,47866
+529,Mixer Grinder,3,2,35478
+530,Wireless Mouse,5,39,5900
+531,Bluetooth Speaker,2,26,4872
+532,Bluetooth Speaker,1,16,35533
+533,Football,8,38,29694
+534,Keyboard,1,16,11154
+535,Mixer Grinder,2,29,35130
+536,Keyboard,8,21,43273
+537,Mixer Grinder,3,49,39123
+538,Coffee Maker,7,40,9933
+539,Office Chair,6,26,12510
+540,Water Bottle,1,28,30041
+541,Football,1,47,48220
+542,Novel Book,4,2,31987
+543,Wireless Mouse,7,48,1150
+544,School Bag,5,45,4740
+545,Bluetooth Speaker,7,34,21991
+546,School Bag,6,35,14577
+547,Nike Running Shoes,6,14,43952
+548,School Bag,7,25,41876
+549,Water Bottle,4,40,42086
+550,Dining Table,7,30,32564
+551,Microwave Oven,2,30,32275
+552,Cricket Bat,4,29,12044
+553,Bluetooth Speaker,1,10,28339
+554,Air Conditioner,6,20,14785
+555,Water Bottle,5,2,11490
+556,School Bag,6,1,9477
+557,Samsung Smart TV,7,44,44700
+558,Air Conditioner,7,3,178
+559,Samsung Smart TV,4,2,30575
+560,Dell Laptop,6,50,18820
+561,Bluetooth Speaker,5,37,9154
+562,Bluetooth Speaker,7,47,32288
+563,Apple iPhone 15,1,6,8278
+564,Washing Machine,1,48,45047
+565,Air Conditioner,2,6,15163
+566,Dell Laptop,5,26,3128
+567,Apple iPhone 15,1,6,15491
+568,Air Conditioner,3,2,43916
+569,Refrigerator,6,20,14440
+570,Air Conditioner,8,47,17052
+571,Keyboard,8,35,11013
+572,School Bag,4,19,12339
+573,Dining Table,4,12,27815
+574,Apple iPhone 15,6,44,45229
+575,Samsung Smart TV,3,40,28755
+576,Refrigerator,1,21,10018
+577,Coffee Maker,8,50,36696
+578,Keyboard,3,2,37275
+579,Keyboard,8,41,48232
+580,Apple iPhone 15,2,3,9539
+581,Dining Table,6,9,24779
+582,Apple iPhone 15,8,28,11820
+583,Samsung Smart TV,4,43,37247
+584,Microwave Oven,6,41,26191
+585,Coffee Maker,5,4,26535
+586,Samsung Smart TV,3,50,36630
+587,Office Chair,4,34,21737
+588,Mixer Grinder,2,44,1547
+589,Novel Book,3,49,31939
+590,Microwave Oven,1,42,24119
+591,Office Chair,7,16,2357
+592,Cricket Bat,6,46,28797
+593,Novel Book,6,4,27191
+594,Washing Machine,3,1,258
+595,Novel Book,3,35,47635
+596,Nike Running Shoes,7,28,13742
+597,Washing Machine,7,16,39691
+598,Bluetooth Speaker,1,11,11670
+599,Apple iPhone 15,6,32,22294
+600,Water Bottle,6,45,34263
+601,Washing Machine,8,20,19454
+602,Wireless Mouse,8,23,48345
+603,Samsung Smart TV,2,31,23109
+604,School Bag,8,15,46692
+605,Washing Machine,5,28,22365
+606,Coffee Maker,1,42,4644
+607,Washing Machine,1,30,40709
+608,Refrigerator,7,39,12336
+609,Bluetooth Speaker,3,21,45285
+610,Office Chair,2,40,38258
+611,Novel Book,7,47,624
+612,Apple iPhone 15,5,33,15543
+613,Wireless Mouse,7,47,39382
+614,Nike Running Shoes,4,29,37645
+615,Keyboard,3,41,27468
+616,Keyboard,6,50,13662
+617,Water Bottle,3,24,10385
+618,Samsung Smart TV,6,13,21424
+619,School Bag,7,49,49076
+620,Dining Table,6,35,43645
+621,Bluetooth Speaker,8,37,40589
+622,Dell Laptop,2,36,9497
+623,Novel Book,1,6,25038
+624,Water Bottle,5,41,21842
+625,Samsung Smart TV,1,11,15269
+626,Air Conditioner,1,20,2301
+627,Refrigerator,8,43,17869
+628,Air Conditioner,6,48,18016
+629,Dell Laptop,8,33,48987
+630,Novel Book,4,1,12956
+631,Coffee Maker,8,43,46684
+632,Cricket Bat,2,14,24093
+633,Dining Table,3,50,497
+634,School Bag,3,9,12077
+635,Office Chair,3,49,34798
+636,Office Chair,8,15,5288
+637,Air Conditioner,2,1,27795
+638,Mixer Grinder,1,5,40025
+639,Novel Book,7,30,28704
+640,Coffee Maker,8,39,19711
+641,Dell Laptop,6,26,2221
+642,Apple iPhone 15,7,23,6470
+643,Air Conditioner,5,37,35812
+644,Keyboard,8,39,9413
+645,Cricket Bat,5,18,38513
+646,Football,1,4,8589
+647,Microwave Oven,2,35,20409
+648,Apple iPhone 15,4,6,3074
+649,Nike Running Shoes,1,27,47909
+650,Office Chair,8,50,35890
+651,Dell Laptop,8,31,45960
+652,Football,1,5,39125
+653,Dell Laptop,7,26,48509
+654,School Bag,8,28,7498
+655,Dining Table,1,44,28524
+656,Dining Table,4,5,20331
+657,Mixer Grinder,2,50,13771
+658,Keyboard,3,32,33527
+659,Washing Machine,6,44,34775
+660,Mixer Grinder,2,23,16697
+661,Apple iPhone 15,2,45,19543
+662,Dining Table,8,10,19474
+663,Apple iPhone 15,6,8,2294
+664,Apple iPhone 15,5,29,43531
+665,Samsung Smart TV,6,3,20883
+666,Wireless Mouse,6,45,41048
+667,Cricket Bat,7,48,34558
+668,Novel Book,5,30,41447
+669,Air Conditioner,4,12,4756
+670,Nike Running Shoes,3,37,11126
+671,Bluetooth Speaker,8,47,18954
+672,Apple iPhone 15,3,24,9700
+673,Football,4,50,16998
+674,Coffee Maker,4,21,32897
+675,Samsung Smart TV,3,12,10456
+676,Dining Table,1,24,39282
+677,Mixer Grinder,8,32,39581
+678,Nike Running Shoes,3,33,11836
+679,Coffee Maker,8,22,16572
+680,School Bag,4,32,22511
+681,Refrigerator,8,19,3341
+682,Microwave Oven,6,5,10910
+683,Office Chair,2,36,39556
+684,Dining Table,5,33,48484
+685,Cricket Bat,8,6,5905
+686,Wireless Mouse,7,20,18375
+687,Wireless Mouse,6,44,38606
+688,Samsung Smart TV,1,47,32134
+689,Bluetooth Speaker,5,12,39252
+690,Water Bottle,4,16,19527
+691,Nike Running Shoes,5,8,4210
+692,Microwave Oven,8,4,28833
+693,Dining Table,2,29,41149
+694,Novel Book,3,45,2471
+695,Dell Laptop,8,34,8348
+696,Air Conditioner,1,15,25998
+697,Nike Running Shoes,1,22,18930
+698,Bluetooth Speaker,2,27,35369
+699,Wireless Mouse,1,40,47553
+700,Wireless Mouse,2,50,28153
+701,Keyboard,7,22,12281
+702,Keyboard,7,17,47891
+703,School Bag,3,26,30979
+704,Coffee Maker,8,37,34708
+705,Microwave Oven,2,4,9980
+706,Office Chair,6,50,23859
+707,Football,6,17,43519
+708,Microwave Oven,6,10,31223
+709,Office Chair,5,31,20262
+710,Air Conditioner,7,42,36020
+711,Dining Table,6,23,7296
+712,Novel Book,1,40,19181
+713,Wireless Mouse,1,33,35045
+714,Nike Running Shoes,4,4,47254
+715,Water Bottle,4,15,25098
+716,Air Conditioner,1,13,25149
+717,Dining Table,4,39,20982
+718,Coffee Maker,4,43,4457
+719,Dell Laptop,5,21,2300
+720,Water Bottle,4,1,41747
+721,School Bag,7,5,25117
+722,Wireless Mouse,3,37,36007
+723,Air Conditioner,6,14,12058
+724,Keyboard,2,28,31716
+725,Football,8,8,43527
+726,Mixer Grinder,5,44,5673
+727,Refrigerator,7,32,9102
+728,Water Bottle,3,36,42601
+729,Microwave Oven,5,26,43196
+730,Water Bottle,1,49,36969
+731,Water Bottle,1,7,48959
+732,Bluetooth Speaker,1,29,44462
+733,Refrigerator,5,21,4275
+734,Dining Table,4,2,14814
+735,Novel Book,7,35,28032
+736,Wireless Mouse,4,10,9094
+737,Nike Running Shoes,7,2,34330
+738,Wireless Mouse,2,35,22146
+739,Cricket Bat,5,18,49776
+740,Coffee Maker,2,38,27832
+741,Keyboard,8,45,11518
+742,Samsung Smart TV,1,33,37547
+743,Cricket Bat,5,11,22658
+744,Dell Laptop,3,34,14898
+745,Office Chair,5,45,43280
+746,Washing Machine,5,2,6289
+747,Mixer Grinder,5,30,17257
+748,Microwave Oven,2,11,33302
+749,Nike Running Shoes,5,7,34814
+750,Water Bottle,2,6,49269
+751,Novel Book,5,9,33891
+752,Cricket Bat,8,17,15525
+753,Cricket Bat,1,6,14512
+754,Washing Machine,8,50,23739
+755,Washing Machine,3,16,27798
+756,Dining Table,3,27,27961
+757,Novel Book,1,10,3416
+758,Bluetooth Speaker,4,27,29022
+759,Samsung Smart TV,5,9,26416
+760,Keyboard,2,43,7340
+761,Dell Laptop,5,27,33412
+762,Refrigerator,8,31,2197
+763,Mixer Grinder,8,42,32499
+764,Dell Laptop,8,23,47248
+765,Refrigerator,4,5,34158
+766,Cricket Bat,8,48,29440
+767,Apple iPhone 15,3,38,46840
+768,Office Chair,7,42,16951
+769,Novel Book,1,11,21339
+770,Bluetooth Speaker,3,20,43373
+771,Samsung Smart TV,3,26,49931
+772,Washing Machine,6,23,15738
+773,Apple iPhone 15,2,35,8473
+774,Apple iPhone 15,5,6,18252
+775,Microwave Oven,8,46,22895
+776,Nike Running Shoes,3,18,13031
+777,Refrigerator,5,2,28057
+778,Refrigerator,4,39,20656
+779,Dining Table,6,9,47539
+780,Wireless Mouse,2,44,5552
+781,Refrigerator,5,40,8949
+782,School Bag,2,33,45524
+783,Washing Machine,2,5,21394
+784,Air Conditioner,3,32,14446
+785,Bluetooth Speaker,1,35,10279
+786,Cricket Bat,8,15,18548
+787,Microwave Oven,6,3,10402
+788,Cricket Bat,3,22,28370
+789,Cricket Bat,1,48,17271
+790,Mixer Grinder,4,27,14063
+791,Cricket Bat,2,30,44610
+792,Bluetooth Speaker,5,36,31930
+793,Wireless Mouse,5,8,3064
+794,Apple iPhone 15,2,37,42773
+795,Keyboard,7,32,30583
+796,Football,5,2,25580
+797,Bluetooth Speaker,4,12,8211
+798,Coffee Maker,3,42,32216
+799,Washing Machine,5,39,21833
+800,Bluetooth Speaker,1,1,25447
+801,Dell Laptop,1,34,17367
+802,Air Conditioner,4,24,30187
+803,Football,5,14,33559
+804,Apple iPhone 15,2,39,5752
+805,Coffee Maker,6,37,33455
+806,Microwave Oven,2,32,32519
+807,Coffee Maker,6,27,20280
+808,Water Bottle,1,35,21215
+809,Wireless Mouse,6,40,31757
+810,School Bag,8,17,33986
+811,Water Bottle,6,46,2448
+812,Coffee Maker,3,7,16132
+813,Novel Book,6,12,27493
+814,Keyboard,8,35,42887
+815,Novel Book,7,35,13206
+816,Refrigerator,7,26,24436
+817,School Bag,4,44,14143
+818,Washing Machine,6,37,18687
+819,Samsung Smart TV,6,10,46204
+820,Samsung Smart TV,4,9,47893
+821,Office Chair,5,18,3659
+822,Bluetooth Speaker,2,28,1218
+823,Cricket Bat,5,18,28300
+824,Dining Table,3,7,8617
+825,Air Conditioner,8,47,23801
+826,Keyboard,7,37,42183
+827,Nike Running Shoes,3,30,8798
+828,Nike Running Shoes,8,33,12675
+829,Mixer Grinder,6,43,26925
+830,Football,6,23,27675
+831,Dell Laptop,4,30,2998
+832,Refrigerator,7,35,35926
+833,Microwave Oven,5,18,30727
+834,Samsung Smart TV,2,26,1099
+835,Keyboard,6,13,44384
+836,Apple iPhone 15,7,47,4436
+837,Washing Machine,4,9,989
+838,Mixer Grinder,8,44,29386
+839,Bluetooth Speaker,3,29,8446
+840,Dining Table,3,11,38237
+841,Novel Book,1,24,9633
+842,Dell Laptop,7,29,24957
+843,Samsung Smart TV,1,30,7079
+844,Office Chair,4,49,24765
+845,School Bag,7,48,32309
+846,Mixer Grinder,8,25,44641
+847,Cricket Bat,2,2,3570
+848,Air Conditioner,5,35,6975
+849,Dining Table,4,37,20133
+850,Mixer Grinder,5,46,44895
+851,School Bag,1,11,31951
+852,Samsung Smart TV,5,6,22376
+853,Nike Running Shoes,5,11,14811
+854,Washing Machine,2,8,21442
+855,Dining Table,5,20,48827
+856,Refrigerator,7,31,17325
+857,Nike Running Shoes,6,9,18517
+858,Dining Table,2,40,24712
+859,Washing Machine,5,48,10140
+860,Samsung Smart TV,6,43,4339
+861,School Bag,6,45,40127
+862,Mixer Grinder,2,2,16726
+863,Office Chair,8,41,19274
+864,Novel Book,8,29,48503
+865,Dell Laptop,3,15,9735
+866,Air Conditioner,7,39,8949
+867,School Bag,3,22,41435
+868,Refrigerator,7,35,28197
+869,Microwave Oven,8,34,37880
+870,Coffee Maker,2,45,4095
+871,Office Chair,6,17,33487
+872,Washing Machine,8,28,30371
+873,Cricket Bat,1,18,20887
+874,Nike Running Shoes,7,26,39591
+875,Samsung Smart TV,7,8,26375
+876,Dining Table,1,49,10184
+877,Dell Laptop,6,6,47125
+878,Coffee Maker,2,45,36772
+879,Washing Machine,5,15,18130
+880,Apple iPhone 15,1,17,31420
+881,School Bag,8,8,36042
+882,Bluetooth Speaker,8,40,14945
+883,Bluetooth Speaker,6,40,10260
+884,Dining Table,7,39,12856
+885,Keyboard,6,45,41484
+886,Dining Table,6,44,41968
+887,Apple iPhone 15,4,19,37950
+888,Dell Laptop,4,26,39807
+889,Refrigerator,6,4,40225
+890,Cricket Bat,1,26,17651
+891,Mixer Grinder,2,38,35611
+892,Samsung Smart TV,4,4,21365
+893,Mixer Grinder,3,23,48466
+894,Water Bottle,4,28,45655
+895,Office Chair,8,5,21532
+896,Office Chair,1,1,3373
+897,Air Conditioner,4,2,38406
+898,Wireless Mouse,6,10,22298
+899,Dell Laptop,2,31,7676
+900,Samsung Smart TV,5,38,16827
+901,Cricket Bat,4,15,11372
+902,Football,8,42,11923
+903,Mixer Grinder,7,8,48138
+904,Novel Book,6,36,25427
+905,Office Chair,6,30,15224
+906,Washing Machine,1,29,4943
+907,Keyboard,8,36,14962
+908,Samsung Smart TV,5,27,39161
+909,Samsung Smart TV,5,15,15877
+910,Cricket Bat,6,19,30243
+911,Coffee Maker,1,17,49956
+912,Apple iPhone 15,4,5,45366
+913,Nike Running Shoes,6,8,10889
+914,Refrigerator,2,5,1946
+915,Cricket Bat,1,32,27753
+916,School Bag,5,27,16396
+917,Dining Table,5,15,18642
+918,School Bag,1,29,22287
+919,Football,1,45,39740
+920,Novel Book,7,46,40216
+921,Wireless Mouse,7,18,29766
+922,Water Bottle,8,47,4322
+923,Samsung Smart TV,8,7,29236
+924,Bluetooth Speaker,8,27,17570
+925,Keyboard,7,5,43637
+926,Washing Machine,3,36,35817
+927,Wireless Mouse,8,50,8607
+928,Air Conditioner,3,8,21976
+929,Samsung Smart TV,6,17,5961
+930,Microwave Oven,3,17,48824
+931,Wireless Mouse,6,24,4080
+932,Coffee Maker,7,47,26321
+933,Coffee Maker,7,3,33995
+934,School Bag,5,38,8919
+935,Water Bottle,6,2,48317
+936,Office Chair,3,47,29521
+937,Washing Machine,3,18,21209
+938,Football,3,39,43671
+939,Wireless Mouse,5,40,12865
+940,Refrigerator,5,31,17118
+941,Refrigerator,8,33,27272
+942,Novel Book,6,43,47599
+943,Nike Running Shoes,7,2,29862
+944,Novel Book,4,43,38961
+945,Nike Running Shoes,5,3,5156
+946,Mixer Grinder,5,6,35818
+947,Wireless Mouse,3,13,2183
+948,Keyboard,3,8,37070
+949,Dell Laptop,7,2,12319
+950,Wireless Mouse,3,2,15415
+951,Wireless Mouse,8,16,6751
+952,Washing Machine,2,7,20960
+953,Keyboard,4,25,9925
+954,Washing Machine,1,37,158
+955,Wireless Mouse,1,41,48733
+956,Water Bottle,3,24,9726
+957,Dining Table,5,9,38069
+958,Water Bottle,4,3,7570
+959,Coffee Maker,5,38,13355
+960,Dell Laptop,1,42,47120
+961,Air Conditioner,1,44,6077
+962,Novel Book,6,6,9775
+963,Washing Machine,7,46,17270
+964,Apple iPhone 15,3,22,9232
+965,Dining Table,1,33,31660
+966,Nike Running Shoes,1,46,28052
+967,Nike Running Shoes,5,23,29558
+968,Novel Book,7,42,2264
+969,Air Conditioner,7,16,33855
+970,Coffee Maker,5,4,30499
+971,Dell Laptop,4,48,14769
+972,Bluetooth Speaker,1,15,28564
+973,Wireless Mouse,1,29,10137
+974,Water Bottle,2,31,22829
+975,Refrigerator,3,28,8362
+976,Office Chair,3,1,35403
+977,School Bag,5,44,33351
+978,Washing Machine,2,5,45947
+979,Refrigerator,2,29,11184
+980,Coffee Maker,1,8,41218
+981,Apple iPhone 15,7,43,19879
+982,Dining Table,5,4,13760
+983,Washing Machine,3,3,13410
+984,Coffee Maker,5,26,8176
+985,Apple iPhone 15,8,41,16581
+986,Water Bottle,8,48,26614
+987,Wireless Mouse,8,23,34871
+988,School Bag,8,47,43527
+989,Microwave Oven,3,22,48673
+990,Wireless Mouse,5,25,32094
+991,Nike Running Shoes,1,12,17922
+992,Dell Laptop,6,2,12361
+993,Microwave Oven,6,44,29489
+994,Water Bottle,5,20,31107
+995,Samsung Smart TV,1,43,1341
+996,Cricket Bat,8,47,34954
+997,Air Conditioner,6,10,4976
+998,Water Bottle,3,13,33453
+999,Microwave Oven,3,35,22245
+1000,Bluetooth Speaker,5,46,29755
