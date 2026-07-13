@@ -1,5 +1,6 @@
 from faker import Faker
 import pandas as pd
+import random
 
 fake = Faker()
 
@@ -13,7 +14,7 @@ for i in range(NUMBER_OF_CUSTOMERS):
     "first_name": fake.first_name(),
     "last_name": fake.last_name(),
     "email": fake.email(),
-    "phone": fake.phone_number(),
+    "phone": str(random.randint(6000000000, 9999999999)), 
     "city": fake.city(),
     "state": fake.state(),
     "registration_date": fake.date_between(start_date="-3y", end_date="today")
