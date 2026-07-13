@@ -14,16 +14,16 @@ import pandas as pd
 
 df = pd.read_csv("../../data/customers.csv")
 
-#print(df.head())
+                                                            #print(df.head())
 
 cursor=connection.cursor()
 
-#customer=df.iloc[10]
+                                                                #customer=df.iloc[10]
 
-#print(customers)
+                                                            #print(customers)
 
-#print(customers["customer_id"])
-#print(customers["first_name"])
+                                                                                #print(customers["customer_id"])
+                                            #print(customers["first_name"])
 
 for i in range(len(df)):
     customer = df.iloc[i]

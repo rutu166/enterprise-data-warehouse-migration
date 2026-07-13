@@ -4,7 +4,7 @@ import pandas as pd
 
 fake=Faker()
 
-order_status = [
+status = [
     "Pending",
     "Processing",
     "Shipped",
@@ -25,7 +25,7 @@ for i in range(NUMBER_OF_ORDERS):
                 start_date="-1y",end_date="today"
             ),
             "total_amount":random.randint(500,50000),
-            "order_status":random.choice(order_status)
+            "status":random.choice(status)
         })
     ]
 

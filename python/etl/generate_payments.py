@@ -27,10 +27,10 @@ for i in range(NUMBER_OF_PAYMENTS):
     payments.append({
         "payment_id":i+1,
         "order_id":i+1,
-        "payment_date":fake.date_between(
+        "payment_method":random.choice(payment_method),
+         "payment_date":fake.date_between(
             start_date="-1y",end_date="today"
         ),
-        "payment_method":random.choice(payment_method),
         "payment_status":random.choice(payment_status),
         "amount":random.randint(500,5000)
     })

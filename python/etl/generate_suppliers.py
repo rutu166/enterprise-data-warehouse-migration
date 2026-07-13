@@ -1,5 +1,6 @@
 from faker import Faker
 import pandas as pd
+import random
 
 fake = Faker()
 
@@ -11,7 +12,7 @@ for i in range(NUMBER_OF_SUPPLIERS):
     suppliers.append({
         "supplier_id": i + 1,
         "supplier_name": fake.company(),
-        "contact_number": fake.phone_number(),
+        "contact_number": str(random.randint(6000000000,9999999999)),
         "supplier_email": fake.company_email(),
         "address": fake.address().replace("\n", ", ")
     })

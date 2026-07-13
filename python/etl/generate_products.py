@@ -25,6 +25,10 @@ product_names = [
 ]
 products=[]
 
+price = random.randint(500, 50000)
+
+cost_price = int(price * random.uniform(0.6, 0.9))
+
 NUMBER_OF_PRODUCTS=1000
 
 for i in range(NUMBER_OF_PRODUCTS):
@@ -32,10 +36,11 @@ for i in range(NUMBER_OF_PRODUCTS):
     products.append({
 
         "product_id":i+1,
-        "Product_name":random.choice(product_names),
+        "product_name":random.choice(product_names),
         "category_id":random.randint(1,8),
         "supplier_id":random.randint(1,50),
-        "price":random.randint(100,50000)
+        "price":price,
+        "cost_price":cost_price
     }
     )
 
