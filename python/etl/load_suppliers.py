@@ -1,24 +1,28 @@
-import pyodbc
+from db_connection import get_connection
 import pandas as pd
 
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
+connection=None
+cursor=None
 
-print("Sql server connect has been done successfully!!")
+try:
+    connection=get_connection()
+    print("SQL server established successfully")
 
-df=pd.read_csv("../../data/suppliers.csv")
+    cursor=connection.curosr()
+    rows=[]
 
-cursor=connection.cursor()
+    df=pd.read_csv("../../data/suppliers.csv")
 
-for i in range(len(df)):
-    supplier=df.iloc[i]
-
-    cursor.execute(
-
+    for supplier in df.itertuples():
+        rows.append(
+            (
+            supplier.supplier_id,
+            supplier.supplier_name,
+            supplier.contact_number,
+            supplier.supplier_email, 
+            supplier,address
+     ) )
+    cursor.executemany(
         """
         INSERT INTO suppliers(
         "supplier_id",
@@ -29,11 +33,20 @@ for i in range(len(df)):
         )
         VALUES ( ? , ? , ? , ? , ?)
         """,
-        int(supplier["supplier_id"]),
-        supplier["supplier_name"],
-        str(supplier["contact_number"]),
-        supplier["supplier_email"],
-        supplier["address"]
+        rows
     )
-connection.commit()
-print("All suppliers inserted sucessfully!!")
+    connection.commit()
+    print("Suppliers inserted successfull!")
+
+except Exception as e:
+    if connection:
+        connection.rollback()
+    print("Load failed")
+    print(f"error : {e}")
+
+finally:
+    if cursor:
+        curosr.close()
+    if connection:
+        connection.close()
+    print("Resourses released")

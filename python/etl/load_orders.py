@@ -1,39 +1,51 @@
-import pyodbc
+from db_connection import get_connection
 import pandas as pd
 
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
-print("SQL server connection establish successfully")
+connection=None
+cursor=None
 
-cursor=connection.cursor()
+try:
+    connection=get_connection()
+    print("Connection established successfully!!")
+    cursor=connection.cursor()
 
-df=pd.read_csv("../../data/orders.csv")
+    df=pd.read_csv("../../data/orders.csv")
+    rows=[]
 
-for i in range(len(df)):
-    order=df.iloc[i]
-
-    cursor.execute(
+    for order in df.itertuples():
+        rows.append(
+           (
+            order.order_id,
+            order.customer_id,
+            order.order_date,
+            order.total_amount,
+            order.status
+         ) )
+        cursor.executemany(
         """
-        INSERT INTO orders(
-        order_id,
-        customer_id,
-        order_date,
-        total_amount,
-        status
-        )
-        values(?,?,?,?,?)
-        """,    
-        int(order["order_id"]),
-        int(order["customer_id"]),
-        order["order_date"],
-        float(order["total_amount"]),
-        order["status"]
+            INSERT INTO orders(
+            order_id,
+            customer_id,
+            order_date,
+            total_amount,
+            status
+            )
+            values(?,?,?,?,?)
+            """,    
+            rows
     )
+    connection.commit()
+    print("Orders inserted successfully")
+except Exception as e:
+    if connection:
+        connection.rollback()
+    print("Load failed")
+    print(f"error: {e}")
 
-connection.commit()
+finally:
+    if cursor:
+        cursor.close()
+    if connection:
+        connection.close()
 
-print("orders inserted successfully")
+    print("resourses released")

@@ -1,23 +1,29 @@
-import pyodbc
-
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
-
-print("connected to SQL server successfully!!")
+from db_connection import get_connection
 import pandas as pd
- 
-df=pd.read_csv("../../data/categories.csv")
 
-cursor=connection.cursor()
+connection=None
+cursor=None
 
-for i in range(len(df)):
-    category=df.iloc[i]
+try:
+    connection=get_connection()
+    cursor=connection.cursor()
 
-    cursor.execute(
+    print("SQL connection done successfully!")
+
+    df=pd.read_csv("../../data/categories.csv")
+
+
+    rows=[]
+
+    for category in df.itertuples():
+        rows.append(
+            (
+                category.category_id,
+                category.category_name,
+                category.status
+            )
+        )
+    cursor.executemany(
         """
         INSERT INTO categories(
             category_id,
@@ -26,10 +32,25 @@ for i in range(len(df)):
             ) 
         values( ? , ? , ?)
         """,
-        int(category["category_id"]),
-        category["category_name"],
-        category["status"]
+        rows
     )
+    connection.commit()
+    print("All categoroies inserted successfully!")
 
-connection.commit()
-print("All categories inserted successfully!!")
+except Exception as e:
+
+    if connection:
+        connection.rollback()
+    print("Categories load failed")
+    print(f"error: {e}")
+
+finally:
+    if cursor:
+        cursor.close()
+    if connection:    
+        connection.close()
+    print("Resourses released!!")
+    
+
+
+    

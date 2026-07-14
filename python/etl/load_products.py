@@ -1,24 +1,29 @@
+from db_connection import get_connection
 import pandas as pd
-import pyodbc
 
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
+connection=None
+cursor=None
 
-print("SQL server connection done!")
+try:
+    connection=get_connection()
+    print("SQL connection establish successfully")
+    cursor=connection.cursor()
+    df=pd.read_csv("../../data/products.csv")
 
-df=pd.read_csv("../../data/products.csv")
-
-cursor=connection.cursor()
-
-for i in range(len(df)):
-    product=df.iloc[i]
-
-    cursor.execute(
-        """
+    rows=[]
+    for product in df.itertuples():
+        rows.append(
+            (
+                product.product_id,
+                product.product_name,
+                product.category_id,
+                product.supplier_id,
+                product.price,
+                product.cost_price
+            )
+        )
+    executemany(
+         """
         INSERT INTO products(
         product_id,
         product_name,
@@ -29,14 +34,20 @@ for i in range(len(df)):
         )
         values(? , ? , ? , ? , ? , ? )
         """,
-        int(product["product_id"]),
-        product["product_name"],
-        int(product["category_id"]),
-        int(product["supplier_id"]),
-        float(product["price"]),
-        float(product["cost_price"])
-
+       rows
     )
-connection.commit()
+    connection.commit()
+    print("Products inserted successfully!!")
 
-print("All products inserted successfully!!")
+except Exception as e:
+    if connection:
+        connection.rollback()
+    print("load failed")
+    print(f"error: {e}")
+
+finally:
+    if cursor:
+        cursor.close()
+    if connection:
+        connection.close()
+    print("Resoursed released")

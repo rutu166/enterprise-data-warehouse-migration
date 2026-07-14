@@ -1,23 +1,28 @@
-import pyodbc
+from db_connection import get_connection
 import pandas as pd
 
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
+connection=None
+cursor=None
 
-print("SQL connection established successfully!!")
+try:
+    connection=get_connection()
+    cursor=connection.cursor()
+    print("SQL established successfully!!")
 
-df=pd.read_csv("../../data/inventory.csv")
+    df=pd.read_csv("../../data/inventory.csv")
+    rows=[]
 
-cursor=connection.cursor()
-
-for i in range(len(df)):
-    inventory=df.iloc[i]
-
-    cursor.execute(
+    for inventory in df.itertuples():
+        rows.append(
+            (
+                inventory.inventory_id,
+                inventory.product_id,
+                inventory.available_quantity,
+                inventory.warehouse_location,
+                inventory.last_updated
+            )
+        )
+    cursor.executemany(
         """
         INSERT INTO inventory(
         inventory_id,
@@ -28,12 +33,21 @@ for i in range(len(df)):
         )
         values(?,?,?,?,?)
         """,
-        int(inventory["inventory_id"]),
-        int(inventory["product_id"]),
-        int(inventory["available_quantity"]),
-        inventory["warehouse_location"],
-        inventory["last_updated"]
+        rows
     )
+    connection.commit()
+    print("Inevtories inserted successfully!!")
 
-connection.commit()
-print("all inventories updated successfully")
+except Exception as e:
+    if connection:
+        connection.rollback()
+    print("Load failed")
+    print(f"Error: {e}")
+
+finally:
+    if cursor:
+        cursor.close()
+
+    if connection:
+        connection.close()
+    print("Resourses released")

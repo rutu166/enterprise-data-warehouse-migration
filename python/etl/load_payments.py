@@ -1,21 +1,29 @@
+from db_connection import get_connection
 import pandas as pd
-import pyodbc
 
-connection=pyodbc.connect(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=localhost\\SQLEXPRESS;"
-    "DATABASE=RetailNova;"
-    "Trusted_Connection=yes;"
-)
-print("SQL server connected successfully!")
+connection=None
+cursor=None
 
-df=pd.read_csv("../../data/payments.csv")
+try:
+    connection=get_connection()
+    print("Connection established successfully")
+    cursor=connection.cursor()
 
-cursor=connection.cursor()
+    df=pd.read_csv("../../data/payments.csv")
+    rows=[]
 
-for i in range(len(df)):
-    payment=df.iloc[i]
-    cursor.execute(
+    for payment in df.itertuples():
+        rows.append(
+            (
+                payment.payment_id,
+                payment.order_id,
+                payment.payment_method,
+                payment.payment_date,
+                payment.payment_status,
+                payment.amount
+            )
+        )
+    cursor.executemany(
         """
         INSERT INTO payments(
         payment_id,
@@ -27,15 +35,20 @@ for i in range(len(df)):
         )
         values(?,?,?,?,?,?)
         """,
-        int(payment["payment_id"]),
-        int(payment["order_id"]),
-        payment["payment_method"],
-        payment["payment_date"],
-        payment["payment_status"],
-        float(payment["amount"])
-
+        rows
     )
+    connection.commit()
+    print("Payments inserted successfully!!")
 
-connection.commit()
-
-print("Payments inserted successfully")
+except Exception as e:
+    if connection:
+        connection.rollback()
+    print("Load failed")
+    print(f"error: {e}")
+    
+finally:
+    if cursor:
+         cursor.close()
+    if connection:
+        connection.close()
+    print("Resourses released")
